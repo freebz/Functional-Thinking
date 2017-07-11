@@ -1,0 +1,6 @@
+// 예제 2-2 '회사 프로세스'에 대한 의사코드
+
+listOfEmps
+    -> filter(x.length > 1)
+    -> transform(x.capitalize)
+    -> convert(x + "," + y)
